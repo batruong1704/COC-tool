@@ -2,7 +2,7 @@
 
 Windows tool for **Clash of Critters** on **LDPlayer**. It repeats three chores — claiming MVP gifts, fishing, and joining rallies — inside the emulator, so your mouse stays free.
 
-Công cụ Windows cho game **Clash of Critters** trên **LDPlayer**. Ba việc lặp lại — nhận quà MVP, câu cá, tham gia rally — chạy qua giả lập, không chiếm chuột máy tính.
+Công cụ Windows cho game **Clash of Critters** trên **LDPlayer**. Gồm các chức năng — tự động nhập mã và nhận quà từ uid user MVP, câu cá, tham gia rally — chạy qua giả lập, không chiếm chuột máy tính.
 
 [English](#english) · [Tiếng Việt](#tiếng-việt)
 
