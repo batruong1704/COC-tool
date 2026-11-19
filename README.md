@@ -21,6 +21,8 @@ Công cụ Windows cho game **Clash of Critters** trên **LDPlayer**. Gồm các
 
 You can open two windows, each tied to its own emulator. The app UI supports 11 languages.
 
+**New in 3.0.2:** Claim gifts checks the UID shown in the game before searching, reduces stale search results, and adds controls to copy UIDs with gifts, remove gifted or duplicate UIDs, and shuffle the list. The active UID is highlighted while the tool runs.
+
 The tool only controls the game inside LDPlayer. For a first run, use a side account and a few UIDs: the game may lock an account if it detects automated play.
 
 ### What you need
@@ -80,6 +82,8 @@ Another computer needs its own key.
 | Artifact Adventure | Nhập số Torch được tiêu; tool tự qua các stage, nhận thưởng và đánh hoặc rút lui khi gặp Zobo theo ngưỡng thắng và tùy chọn phẩm S. |
 
 Có thể mở hai cửa sổ, mỗi cửa sổ gắn một giả lập. Giao diện hỗ trợ 11 ngôn ngữ.
+
+**Mới ở bản 3.0.2:** Nhận quà kiểm tra UID đang hiện trong game trước khi tìm, giảm chọn nhầm kết quả cũ; có thêm nút sao chép UID có quà, lọc UID đã có quà, bỏ UID trùng và xáo trộn danh sách. UID đang xử lý được tô nổi bật.
 
 Tool chỉ điều khiển game trong LDPlayer. Lần đầu nên dùng tài khoản phụ và thử ít UID: game có thể khóa tài khoản nếu phát hiện thao tác tự động.
 
