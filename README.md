@@ -1,131 +1,154 @@
 # Clash of Critters — Auto Tool
 
-Windows tool for **Clash of Critters** on **LDPlayer**. It handles MVP gifts, fishing, rallies, and Artifact Adventure inside the emulator, so your mouse stays free.
+**Let the game play itself.** Auto Tool claims MVP gifts, fishes, joins rallies and runs Artifact Adventure for you on LDPlayer, while your PC stays free for everything else.
 
-Công cụ Windows cho game **Clash of Critters** trên **LDPlayer**. Gồm các chức năng nhận quà MVP, câu cá, tham gia rally và Artifact Adventure — chạy qua giả lập, không chiếm chuột máy tính.
+**Để game tự chạy.** Auto Tool tự nhận quà MVP, câu cá, tham gia rally và chơi Artifact Adventure trên LDPlayer, trong khi máy tính của bạn vẫn rảnh tay cho việc khác.
 
 [English](#english) · [Tiếng Việt](#tiếng-việt)
+
+## See it in action
+
+| Claim MVP gifts | Auto fishing |
+|:---:|:---:|
+| [<img src="media/demo-mvp-gifts.gif" width="260" alt="Claim MVP gifts demo">](media/demo-mvp-gifts.mp4) | [<img src="media/demo-fishing.gif" width="260" alt="Auto fishing demo">](media/demo-fishing.mp4) |
+| [Watch the full video (45 s)](media/demo-mvp-gifts.mp4) | [Watch the full video (52 s)](media/demo-fishing.mp4) |
+
+Recorded on real runs, sped up for viewing. **Fishing:** 10 casts, 10 catches, 0 misses. **Rally:** 38 rallies joined, 2,710 points and 250 cans in one session.
+
+![Rally session result](media/rally-result.png)
 
 ---
 
 ## English
 
-### What it does
+### Features
 
-| Feature | What the tool does |
-|---|---|
-| Claim gifts | Visits each UID, claims the MVP gift box when there is one, then moves on. Paste a UID list or scan a range of IDs. |
-| Auto fishing | Casts, times the bite, and closes the result screen. It can start from the yard, Pinball, or the Fishing Contest screen. |
-| Join rallies | Joins open rallies and keeps going until you press Stop. |
-| Artifact Adventure | Spends the Torch budget you set, advances through stages, collects rewards, and handles Zobo fights or retreats according to your win threshold and optional S-rarity rule. |
+| Feature | Set it up | Result |
+|---|---|---|
+| **Claim gifts** | Paste a UID list or choose an ID range | Every MVP Giftbox on the list is claimed. UIDs without a gift are skipped. |
+| **Auto fishing** | Choose the number of casts and a multiplier | Casts are fished through to the end, golden fish included, with catches and Gold tallied live. |
+| **Join rallies** | Press Start | Open rallies are joined continuously until you stop. Points and cans are totalled per day. |
+| **Artifact Adventure** | Set a Torch budget and your rules | Stages, rewards and Zobo encounters are handled within your limits. |
 
-You can open two windows, each tied to its own emulator. The app UI supports 11 languages.
+- Runs entirely inside the emulator, so your mouse and keyboard stay free
+- Two windows, two emulators, side by side
+- Interface available in 11 languages
 
-**New in 3.0.2:** Claim gifts checks the UID shown in the game before searching, reduces stale search results, and adds controls to copy UIDs with gifts, remove gifted or duplicate UIDs, and shuffle the list. The active UID is highlighted while the tool runs.
+### What's new
 
-The tool only controls the game inside LDPlayer. For a first run, use a side account and a few UIDs: the game may lock an account if it detects automated play.
+**3.0.4**: Sharper fishing. Golden zones, even the narrowest, are hit reliably (100 of 100 casts landed in testing). Any portrait 9:16 LDPlayer resolution is now supported, including 1080×1920 and 900×1600.
 
-### What you need
+**3.0.3**: Redesigned interface with a compact sidebar, clearer summary tiles and a daily Rally summary.
+
+### Requirements
 
 - 64-bit Windows
-- LDPlayer, Clash of Critters installed, emulator screen in portrait
-- One key for exactly one computer
+- LDPlayer with Clash of Critters installed
 
-In LDPlayer, turn on **Settings → Other → ADB debugging**. If you skip that, the tool can turn it on when you check the connection.
+**One-click setup:** on first launch, press **Configure LDPlayer** and the tool sets the emulator's resolution and ADB for you. No manual LDPlayer settings needed.
 
-### Download and install
+### Installation
 
-1. Open the **Releases** page of this repo.
+1. Go to the **Releases** page of this repository.
 2. Download `ClashOfCritters-Du-Setup.exe` from the latest release.
-3. Run it. The installer does not ask for administrator rights. After install, open **Clash of Critters** from the desktop.
+3. Run the installer. No administrator rights are required. Launch **Clash of Critters** from your desktop when it finishes.
 
-This repo only hosts the installer. Source code is not included.
+Updates are delivered through the app. This repository distributes the installer only; source code is not included.
 
-### Get a key
+### Activation
 
-The first time you open the tool, the **Activation** window shows **two machine lines**. A key matches those two lines on that computer only.
+On first launch, the **Activation** window shows **two machine lines**. Your key is issued for those lines and works on that computer only.
 
 1. Click **Copy code**.
-2. Email either address:
+2. Email the code to either address below, together with the plan you want and your preferred payment method:
    - truong.truongbacat@gmail.com
    - trinhtienquang2002@gmail.com
-3. In the email, include the two machine lines, the package you want, and how you prefer to pay.
-4. Paste the key you receive into **Key**, then click **Continue**.
+3. Paste the key you receive into **Key** and click **Continue**.
 
-The same computer opens directly the next time. The installer can be copied to another PC, but the old key is rejected there. Reinstalling Windows or changing drive `C:` changes the machine code: send the new two lines to get a new key.
+The tool opens straight away on that computer from then on. Reinstalling Windows or replacing drive `C:` changes the machine code; send the new lines to receive a new key.
 
 ### Pricing
 
-Prices are in US dollars. One key covers one computer.
+All prices are in USD. One key activates one computer.
 
-| Package | Price | Length |
-|---|---|---|
-| Trial | $1 | 3 days |
-| Month | $10 | 1 month |
-| 2 months | $15 | 2 months |
-| 3 months | $20 | 3 months |
-| Unlimited | $50 | No time limit on the computer you bought it for |
+| Plan | Price | Per month | |
+|---|---|---|---|
+| Trial, 3 days | $1 | | Try before you buy |
+| 1 month | $10 | $10 | |
+| 2 months | $15 | $7.50 | Save 25% |
+| **3 months** | **$18** | **$6** | ⭐ **Best value, save 40%** |
+| Lifetime | $50 | | One-time payment, no expiry |
 
-Another computer needs its own key.
+Need it on another computer? Each additional computer requires its own key.
+
+### Fair-use notice
+
+Auto Tool only interacts with the game inside LDPlayer. Automated play may be detected by the game and can lead to account restrictions. We recommend starting on a secondary account with a small UID list.
 
 ---
 
 ## Tiếng Việt
 
-### Tool làm gì
+### Tính năng
 
-| Chức năng | Việc tool làm |
-|---|---|
-| Nhận quà | Vào nhà từng UID, nhận hộp quà MVP nếu có, rồi sang UID kế. Dán danh sách UID hoặc quét một dải ID. |
-| Tự câu cá | Tự quăng cần, canh cá cắn và đóng màn kết quả. Chạy được từ sân, Pinball hoặc màn Fishing Contest. |
-| Tham gia rally | Tự xin các rally đang mở và chạy đến khi bạn bấm Dừng. |
-| Artifact Adventure | Nhập số Torch được tiêu; tool tự qua các stage, nhận thưởng và đánh hoặc rút lui khi gặp Zobo theo ngưỡng thắng và tùy chọn phẩm S. |
+| Chức năng | Bạn chỉ cần | Kết quả |
+|---|---|---|
+| **Nhận quà** | Dán danh sách UID hoặc chọn dải ID | Nhận toàn bộ hộp quà MVP trong danh sách, UID không có quà tự động bỏ qua. |
+| **Tự câu cá** | Chọn số lượt và hệ số | Câu trọn từng lượt, kể cả cá vàng, thống kê số cá và Gold theo thời gian thực. |
+| **Tham gia rally** | Bấm Bắt đầu | Liên tục vào các rally đang mở cho đến khi bạn dừng, điểm và lon được cộng theo ngày. |
+| **Artifact Adventure** | Đặt số Torch và luật chơi | Tự qua stage, nhận thưởng và xử lý Zobo trong giới hạn bạn đặt. |
 
-Có thể mở hai cửa sổ, mỗi cửa sổ gắn một giả lập. Giao diện hỗ trợ 11 ngôn ngữ.
+- Chạy hoàn toàn trong giả lập, chuột và bàn phím vẫn rảnh
+- Hai cửa sổ chạy song song trên hai giả lập
+- Giao diện 11 ngôn ngữ
 
-**Mới ở bản 3.0.2:** Nhận quà kiểm tra UID đang hiện trong game trước khi tìm, giảm chọn nhầm kết quả cũ; có thêm nút sao chép UID có quà, lọc UID đã có quà, bỏ UID trùng và xáo trộn danh sách. UID đang xử lý được tô nổi bật.
+### Có gì mới
 
-Tool chỉ điều khiển game trong LDPlayer. Lần đầu nên dùng tài khoản phụ và thử ít UID: game có thể khóa tài khoản nếu phát hiện thao tác tự động.
+**3.0.4**: Câu cá chuẩn hơn. Bấm trúng vùng vàng kể cả khi rất hẹp (thử nghiệm 100/100 lượt câu được cá). Hỗ trợ mọi độ phân giải LDPlayer dọc 9:16, gồm cả 1080×1920 và 900×1600.
 
-### Cần có
+**3.0.3**: Giao diện mới với thanh bên thu gọn, ô thống kê rõ ràng hơn và tổng hợp Rally theo ngày.
+
+### Yêu cầu
 
 - Windows 64-bit
-- LDPlayer, game Clash of Critters, màn hình giả lập để dọc
-- Một key cho đúng một máy tính
+- LDPlayer đã cài Clash of Critters
 
-Trong LDPlayer, bật **Cài đặt → Khác → Gỡ lỗi ADB**. Nếu quên, tool có thể tự bật giúp khi bạn kiểm tra kết nối.
+**Thiết lập một chạm:** lần đầu mở tool, bấm **Configure LDPlayer**, tool tự đặt độ phân giải và bật ADB cho giả lập. Không cần tự chỉnh gì trong LDPlayer.
 
-### Tải và cài
+### Cài đặt
 
-1. Mở mục **Releases** của repo này.
-2. Tải file `ClashOfCritters-Du-Setup.exe` của bản mới nhất.
-3. Chạy file đó. Bộ cài không xin quyền quản trị. Sau khi cài, mở **Clash of Critters** trên màn hình Desktop.
+1. Vào mục **Releases** của repo này.
+2. Tải `ClashOfCritters-Du-Setup.exe` ở bản mới nhất.
+3. Chạy bộ cài, không cần quyền quản trị. Cài xong, mở **Clash of Critters** từ màn hình Desktop.
 
-Repo này chỉ có bản cài. Không có mã nguồn.
+Các bản cập nhật được nhận ngay trong ứng dụng. Repo này chỉ phát hành bộ cài, không chứa mã nguồn.
 
-### Xin key
+### Kích hoạt
 
-Lần đầu mở tool, hộp **Activation** hiện **hai dòng mã máy**. Key chỉ khớp đúng hai dòng đó, trên đúng máy đó.
+Lần đầu mở tool, hộp **Activation** hiện **hai dòng mã máy**. Key được cấp theo đúng hai dòng này và chỉ dùng trên máy đó.
 
 1. Bấm **Copy code**.
-2. Gửi email tới một trong hai địa chỉ:
+2. Gửi mã qua email tới một trong hai địa chỉ dưới đây, kèm gói muốn mua và hình thức thanh toán:
    - truong.truongbacat@gmail.com
    - trinhtienquang2002@gmail.com
-3. Trong email ghi: hai dòng mã máy, gói muốn mua, và cách bạn muốn thanh toán.
-4. Nhận key, dán vào ô **Key**, bấm **Continue**.
+3. Dán key nhận được vào ô **Key** và bấm **Continue**.
 
-Lần sau cùng máy thì vào thẳng, không hỏi lại. Cài bộ cài sang máy khác vẫn cài được, nhưng key máy cũ bị từ chối. Cài lại Windows hoặc đổi ổ `C:` làm mã máy đổi: gửi lại hai dòng mới để nhận key khác.
+Từ lần sau, tool mở thẳng trên máy đó. Nếu cài lại Windows hoặc thay ổ `C:`, mã máy sẽ đổi; gửi lại hai dòng mới để nhận key mới.
 
 ### Bảng giá
 
-Giá tính bằng đô la Mỹ. Một key dùng cho một máy.
+Giá tính bằng USD. Mỗi key kích hoạt một máy tính.
 
-| Gói | Giá | Thời hạn |
-|---|---|---|
-| Dùng thử | $1 | 3 ngày |
-| Tháng | $10 | 1 tháng |
-| 2 tháng | $15 | 2 tháng |
-| 3 tháng | $20 | 3 tháng |
-| Không giới hạn | $50 | Không giới hạn thời gian trên máy đã mua |
+| Gói | Giá | Mỗi tháng | |
+|---|---|---|---|
+| Dùng thử 3 ngày | $1 | | Trải nghiệm trước khi mua |
+| 1 tháng | $10 | $10 | |
+| 2 tháng | $15 | $7,5 | Tiết kiệm 25% |
+| **3 tháng** | **$18** | **$6** | ⭐ **Lợi nhất, tiết kiệm 40%** |
+| Vĩnh viễn | $50 | | Trả một lần, không hết hạn |
 
-Muốn dùng thêm máy thì mua thêm key cho máy đó.
+Dùng thêm máy khác thì mỗi máy cần một key riêng.
+
+### Lưu ý khi sử dụng
+
+Auto Tool chỉ thao tác với game bên trong LDPlayer. Game có thể phát hiện thao tác tự động và hạn chế tài khoản. Nên bắt đầu bằng tài khoản phụ với danh sách UID nhỏ.
