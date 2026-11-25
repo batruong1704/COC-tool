@@ -36,6 +36,8 @@ Recorded on real runs, sped up for viewing. **Fishing:** 10 casts, 10 catches, 0
 
 ### What's new
 
+**3.1.0**: Gift claiming picks up where you left off. Stop and press Start again, and your results, gifts and pinball carry on instead of starting over. A new **Add UID** button slots extra UIDs in while it runs; they are handled right after the current one.
+
 **3.0.4**: Sharper fishing. Golden zones, even the narrowest, are hit reliably (100 of 100 casts landed in testing). Any portrait 9:16 LDPlayer resolution is now supported, including 1080×1920 and 900×1600.
 
 **3.0.3**: Redesigned interface with a compact sidebar, clearer summary tiles and a daily Rally summary.
@@ -103,6 +105,8 @@ Auto Tool only interacts with the game inside LDPlayer. Automated play may be de
 - Giao diện 11 ngôn ngữ
 
 ### Có gì mới
+
+**3.1.0**: Nhận quà chạy tiếp đúng chỗ đã dừng. Bấm Dừng rồi Bắt đầu lại, kết quả, số quà và pinball vẫn giữ nguyên thay vì chạy lại từ đầu. Nút **Thêm UID** mới cho chen thêm UID khi đang chạy, UID mới được xử lý ngay sau lượt hiện tại.
 
 **3.0.4**: Câu cá chuẩn hơn. Bấm trúng vùng vàng kể cả khi rất hẹp (thử nghiệm 100/100 lượt câu được cá). Hỗ trợ mọi độ phân giải LDPlayer dọc 9:16, gồm cả 1080×1920 và 900×1600.
 
