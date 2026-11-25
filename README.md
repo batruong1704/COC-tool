@@ -36,6 +36,8 @@ Recorded on real runs, sped up for viewing. **Fishing:** 10 casts, 10 catches, 0
 
 ### What's new
 
+**3.2.2**: The calculator scans fish records faster and updates remaining gold during the scan. You can view it while auto fishing. Only the latest scan log is saved.
+
 **3.2.0**: Fishing adds a **species gold table**. Leave the game on the idle fishing screen or open the fish collection, then press **Scan again** to see each species' weight, current gold, maximum and what is still left. The catch log now records the yellow bonus that slides away, not the silver number beside the fish icon. Rally adds a **Stats** page for one day or every day: joins, entries, cancels, points and cans.
 
 **3.1.0**: Gift claiming picks up where you left off. Stop and press Start again, and your results, gifts and pinball carry on instead of starting over. A new **Add UID** button slots extra UIDs in while it runs; they are handled right after the current one.
@@ -107,6 +109,8 @@ Auto Tool only interacts with the game inside LDPlayer. Automated play may be de
 - Giao diện 11 ngôn ngữ
 
 ### Có gì mới
+
+**3.2.2** giới thiệu **Công cụ tính** với quét danh sách cá nhanh hơn và cập nhật điểm còn lại ngay trong lúc quét. Có thể mở xem khi đang tự câu. Công cụ chỉ giữ log của lần quét gần nhất.
 
 **3.2.0**: Câu cá có **Bảng điểm vàng cá**. Để game ở màn câu đang rảnh hoặc mở sẵn kho cá, rồi bấm **Quét lại** để xem cân nặng, điểm vàng hiện tại, điểm tối đa và phần còn thu được của từng loài. Cột điểm vàng ghi chữ vàng cộng điểm vừa trượt đi, không còn lấy số bạc cạnh icon cá. Rally có mục **Thống kê** theo một ngày hoặc tất cả ngày: số lần xin, vào được, hủy, điểm và lon.
 
